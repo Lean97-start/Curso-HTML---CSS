@@ -1,0 +1,47 @@
+*{ 
+	font-family: 'Akaya Telivigala', cursive;
+	background: #75FB75;
+	
+
+}
+#Titulo{
+	background-color: #FF1C1C;
+	line-height: 100px;
+	text-align: center; /*Localizamos bien el texto a donde lo queremos poner*/
+	/*display: inline;*/
+	box-sizing: border-box;
+	text-shadow: 2px 2px 5px #fff;
+	padding: 0px;/*Distancia del texto respecto de la caja
+				1-padding-top: respecto de la parte de arriba
+				2-padding-left: respecto de la parte izquierda
+				3-padding-right: respecto de la parte derecha
+				4-padding-bottom: respecto de la parte de abajo
+				----------------------------------------
+				Si solo ponemos padding y especificamos los pixeles, para todos los lados es igual
+				podemos ademas, especificar con pixeles padding: 20px 30px 40px 50px, lo cual responde a top left bottom right*/
+}
+h2 {
+	background-color: white;
+	/*display: inline;*/
+
+	height: 60px; /*altura*/
+	width: 150px; /*ancho*/
+	text-align: center;
+	margin:10px 20px; /*Distancia que hay entre dos cajas*//*Distancia del texto respecto de la caja
+				1-margin-top: respecto de la parte de arriba
+				2-margin-left: respecto de la parte izquierda
+				3-margin-right: respecto de la parte derecha
+				4-margin-bottom: respecto de la parte de abajo
+				----------------------------------------
+				Si solo ponemos margin y especificamos los pixeles, para todos los lados es igual
+				podemos ademas, especificar con pixeles margin: 20px 30px 40px 50px, lo cual responde a top left bottom right*/
+	border-radius: 10px;/*es el redondeo que le damos la caja en sus vertices. Podemos usar el "%" para poder darle el redondeo*/
+	border: 2px dashed gray; /*solid: linea continua, dashed: linea entre cortada, double: doble linea, inset: doble color, outset: invertido del inset, groove*/
+	box-shadow: 2px 4px 10px 0 #000; /*box-shadow: SOMBRA de los bordes. el primero px es en el eje X, luego en el eje Y,
+	Tamaño del desenfoque,el borde que va a tener, el colorr que va a tener*/
+
+
+	text-shadow: 2px 4px 15px #000; /*text-Shadow: SOMBRA del texto. el primero px es en el eje X, luego en el eje Y,
+	Tamaño del desenfoque, el color que va a tener*/
+	transform: rotate(9deg);
+}

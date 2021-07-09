@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head><!--todo lo que no se pueda ver va a ir en el head -->
+		<title>Primera página web</title>
+		<meta charset="utf-8"> <!-- "charset" juego de caracteres. "meta" lo pongo para que con utf-8 me acepte los acentos, etc -->
+		<meta name="keywords" content="Mundo,multimedia,musica"> <!-- con este lo que hago es poner las etiquetas con las que va a buscar en el navegador -->
+		<meta name="description" content="Pagina con toda la actulidad"> <!-- lo utilizo para describir la pag web -->
+		<meta name="author" content="Leandro Morello"> <!-- con esto digo quien es el autor de la pag -->
+		<meta name="copyright" content="facebook.INC"> <!-- con esto decimos que si alguna empresa tiene los derechos de autor -->
+		<meta name="robots" content="index"> <!-- es para especificar si una pagina esta indexada o no (index-noindex) -->
+		<link rel="icon"  href="450_1000.ico"> <!-- para poner una foto en la pestaña del logo por ej. Debe ser formato "ico" cualquier foto la hago formato ico cambiandole la extension -->
+	</head> 
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li>		
+						<a href="https://www.google.com.ar">Click aqui</a> <!--  enlace para ir a algun lado,  con esa estructura de ref. voy a una ruta externa-->
+					</li>
+					<li>
+						<a href="cosas/pagina2.html">Ir página de listas</a> <!-- poniendo asi en la referencia entro en una ruta local -->
+					</li>
+					<li>
+						<a href="cosas/multimedia.html">Ir multimedia</a>
+					</li>
+					<li>
+						<a href="cosas/formulariosydemas.html">Ir a Formularios y demas</a>
+
+					</li>
+					<li>
+						<a href="tablas.html">Ir a Tablas</a>
+
+					</li>
+
+				</ul>
+			</nav>
+		
+		<div> <!-- Lo que hace es utilizado para dividir contenidos -->
+			<!-- AYUDA A LA SEMANTICA Y PARA MUCHO USO DE CSS -->
+		</div>
+		</header>
+		<article> <!-- para crear un articulo : nota, etc -->
+			<section> <!-- seccion para mas de un articulo, etc -->
+				<h1>Esta es mi página web</h1>
+				<a href="#Codigo">Click aquí para ir al Codigo del pie de pag</a> <br>
+					<h2>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+					</h2>
+			</section>
+		</article>
+		<aside> <!-- es para poner cosas extras o a parte -->
+			<h2>Contenido Extra</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</aside>
+		<footer> <!-- pie de pagina -->
+			<h4 id="Codigo"><!--  con el id me sirve para invocar por medio de un href:#codigo y que me lleve directo al pie o a la parte que quiera -->
+				Seguinos: somos el pie de pagina
+			</h4>
+		</footer>
+	</body>
+</html>

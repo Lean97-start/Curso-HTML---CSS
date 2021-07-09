@@ -1,0 +1,91 @@
+*{ 
+	font-family: 'Akaya Telivigala', cursive;
+	background: #fff;
+}
+
+div{
+	position: absolute;
+	background: lightblue;
+	box-sizing: border-box;
+}
+
+.contenedor2{
+	height: 250px;
+	width: 250px;
+	border: 2px solid black;
+	position: relative;
+	margin-top: 100px;
+	margin-left: 100px;
+	background: green;
+
+}
+.caja1{
+	height: 50px;
+	width: 50px;
+	bottom: 0;
+	right: 0;
+}
+.caja2{
+	height: 50px;
+	width: 50px;
+	right: 0;
+}
+.caja3{
+	height: 50px;
+	width: 50px;
+	top: 0;
+}
+.caja4{
+	height: 50px;
+	width: 50px;
+	bottom: 0;
+}
+
+.caja5{
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+.outline1{
+	width: 50px;
+	height: 50px;
+	background: red;
+	/*margin: auto;/*Con el auto lo que hago es que la centra a la caja
+	outline: 10px solid black; 
+	box-sizing: border-box;*/
+}
+.outline2{
+	width: 50px;
+	height: 50px;
+	background: yellow;
+	position: relative; /*Conserva el espacio de la caja*/
+/*	margin: auto;*/
+	top: 20px;
+	left: 20px;
+	z-index: 10; /*Lo que hace es que a la superposicion se la asigna en una eje perpendicular z, al darle un valor positivo 
+	pasa adelante y si la otra caja esta en 0 se pone atras*/
+}
+.outline3{
+	width: 50px;
+	height: 50px;
+	display: block;
+	background: lightblue;
+	position: static; /*Lo que hace es que quita el espacio reservado de la caja*/
+	z-index: 2;
+	top:  200px;
+	opacity: 0.8; /*Transparencia de una caja va de 0 a 1*/
+	
+}
+.outline4{
+	width: 50px;
+	height: 50px;
+	display: block;
+	background: green;
+	/*margin: 50px auto; /*Con el 50px le damos 50px en top y automatico en los costados*/
+}

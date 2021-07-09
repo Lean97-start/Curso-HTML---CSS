@@ -1,0 +1,53 @@
+/**{ selector universal
+	color: red;
+}*/
+h1{ /*selector de tipo*/
+	color: red;
+}
+button{ /*selector de tipo*/
+	color: red;
+}
+.titulo-h3{ /*selector de clase*/
+	color: blue;
+}
+#tituloh2{ /*selector por id*/
+	color: yellow;
+}
+[mandale="mecha"]{ /*selector por atributo*/
+	color: brown;
+}
+h4 p{  /*selector por descendiente- selecciono de afuera hacia adentro*/
+	color: green;
+}
+.titulo-descendiente p{ /*selector por clases y descendiente- selecciono de afuera hacia adentro*/
+	color:orange;
+}
+.titulo-descendiente p span{
+	color: green;
+}
+h3:hover{ /*selector de clases por pseudo clase*/
+	color:violet;
+}
+/*Especifidad es como nosotros establecemos prioridades en cuanto al color etc.: 
+Categorias: 1- !important
+			2-Estilos en linea
+			3-identificadores (ID)
+			4-Clases- pseudo-clases- Atributos
+			5-elementos- pseudoelementos (b,h1,hn,p,etc)*/
+h3 {
+	font-size: 50px; /*podemos ponerlo en px, cm, mm, etc a estas se las llama medidas fijas*/
+	display: inline; /*cambio el comportamiento de la caja*/
+	/*display: block; bloque, abarca todo*/
+	/*display: inline; en linea, solo abarca una parte. Una vez que pusimos display no nos deja poner height ni width*/
+}
+
+h3 { /* medidas relativas*/
+	font-size: 1em; /*trabaja ademas con el tamaño heredado porque arriba declare el tamaño en pixeles 50px = 1em. si cambio el valor por ejemplo 2px=1em 
+/*por defecto un "em" son 16 pixeles por defecto.*/
+}
+h2{
+	font-size: 25px; /* Tamaño de la letra*/
+	font-family: Georgia, Arial; /*tipografia de la letra. Separamos por coma, si no hay una tipografia, pone la otra*/
+	line-height: 2; /*espacio en alto y bajo de cada letra- por ejemplo: 1 - 1/2 para arriba y  1/2 para abajo*/
+	font-weight: 900; /*el grosor de la letra*/
+}
